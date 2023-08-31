@@ -22,7 +22,7 @@ const HeroSection = () => {
             </h1>
 
             <p className='text-white font-sans text-xl'>
-                We're more than a company; we're a movement, driving the energy sector towards sustainable grid reliability.
+                We&apos;re more than a company; we&apos;re a movement, driving the energy sector towards sustainable grid reliability.
             </p>
 
         </div>

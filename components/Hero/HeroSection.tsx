@@ -1,5 +1,5 @@
 import React from 'react'
-import VimeoBackground from './VimeoBackground'
+import VimeoBackground from '../VimeoBackground'
 import Image from 'next/image'
 
 const HeroSection = () => {

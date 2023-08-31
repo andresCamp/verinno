@@ -17,11 +17,11 @@ const ImageBanner: React.FC<ImageBannerProps> = ({img, title, subtitle}) => {
             src={img}
             width={2500}
             alt=''
-            objectFit='contai'
+            objectFit='contain'
         />
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-primary-light">
-            <h1 className="text-6xl bg-slate-100 p-4 rounded-2xl font-bold">
+            <h1 className="text-6xl bg-opacity-95 bg-stone-100 p-4 rounded-2xl font-bold shadow-lg">
             {title}
             </h1>
 
@@ -30,7 +30,7 @@ const ImageBanner: React.FC<ImageBannerProps> = ({img, title, subtitle}) => {
             </p>
         </div>
 
-        </div>
+      </div>
     </div>
   )
 }

@@ -10,7 +10,6 @@ const MissionSection = () => {
             src={img}
             width={2500}
             alt=''
-            objectFit='contai'
         />
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">

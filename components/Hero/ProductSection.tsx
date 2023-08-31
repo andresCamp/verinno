@@ -11,7 +11,7 @@ const ProductSection = () => {
     <div className='flex flex-col justify-center items-center my-16'>
 
 
-        <div className='flex flex-col sm:flex-row justify-center sm:gap-12 items-end'>
+        <div className='flex flex-col sm:flex-row justify-center gap-12 items-center sm:items-end'>
       
             <ProductSectionCard
                 img={unlock}

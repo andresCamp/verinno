@@ -8,10 +8,10 @@ interface VimeoBackgroundProps {
 }
 
 const VimeoBackground: React.FC<VimeoBackgroundProps> = ({ videoId, children }) => {
-  const vimeoUrl = `https://player.vimeo.com/video/${videoId}?background=1&autoplay=1&loop=1&byline=0&title=0`;
+  const vimeoUrl = `https://player.vimeo.com/video/${videoId}?background=1&autoplay=1&loop=1&byline=0&title=0&quality=720p`;
 
   return (
-    <div className="relative z-10 min-h-screen sm:block hidden">
+    <div className="relative z-10 min-h-screen md:block hidden">
       <iframe
         src={vimeoUrl}
         frameBorder="0"

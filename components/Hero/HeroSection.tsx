@@ -4,13 +4,13 @@ import Image from 'next/image'
 
 const HeroSection = () => {
   return (
-    <div className='absolute z-40 top-0 left-0 w-screen h-screen'>
+    <div className='absolute mt-0  2xl:mt-28 z-40 top-0 left-0 w-screen h-fit'>
       
       <Image 
         src="/bg-image.png"
         fill={true}
         alt="verinno bg"
-        className="sm:hidden absolute inset-0 h-full w-full object-cover z-10"  
+        className="md:hidden absolute inset-0 h-full w-full object-cover z-10"  
       />
       
       <VimeoBackground videoId="859673302"> 

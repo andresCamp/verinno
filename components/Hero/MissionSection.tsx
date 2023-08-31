@@ -19,7 +19,7 @@ const MissionSection = () => {
             </h1>
 
             <p className="mt-5 text-xl font-sans text-center">
-            Our mission goes beyond grid technology it's a sustainable revolution. 
+            Our mission goes beyond grid technology it&apos;s a sustainable revolution. 
             We aim to make the U.S. 80% renewable, sparking a <strong>global decarbonization movement.</strong>
             </p>
       </div>

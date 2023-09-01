@@ -8,7 +8,7 @@ interface FeatureCardProps {
 
 const FeatureCard: React.FC<FeatureCardProps> = ({title, text, text2}) => {
   return (
-    <div className='flex flex-col items-center text-stone-600 justify-center bg-stone-100 hover:bg-primary-100 shadow-xl rounded-xl p-8 py-10'>
+    <div className='flex flex-col items-center animate-fadeIn text-stone-600 justify-center bg-stone-100 hover:bg-primary-100 shadow-xl rounded-xl p-8 py-10'>
       
 
       <h1 className='text-xl'>
